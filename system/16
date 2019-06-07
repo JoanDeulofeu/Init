@@ -1,0 +1,4 @@
+Grace a la commande crontab permet de planifiees des taches ssh.
+on fait donc:
+crontab -e        <--- pour editez le fichier des taches planifiees
+* * * * * /bin/ls > /var/log/ls.log   <--- puis on tape dans l'editeur un texte tel que celui ci et remplacant les * par minutes/heure/jour du mois/mois/jour de la semaine puis on save le fichier et on quitte. le terminal renvoie : "crontab: installing new crontab".

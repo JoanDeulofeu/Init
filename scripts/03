@@ -1,0 +1,16 @@
+#/bin/bash
+read -p "Choisissez le nouveau language pour la VM (FR/EN/ES) : " LANG
+if [ $LANG = "FR" ]; then
+	export LANG=fr_FR.UTF-8;
+	echo "Le language de la VM est maintenant \"Francais\" "
+elif [ $LANG = "EN" ]; then
+	export LANG=en_US.UTF-8;
+	echo "Le language de la VM est maintenant \"Anglais\" "
+elif [ $LANG = "ES" ]; then
+	export LANG=es_ES.UTF-8;
+	echo "Le language de la VM est maintenant \"Espagnol\" "
+fi
+read -p "Voulez vous affichez l'environnement pour verifier que cet incroyable script a bien fonctionner? (yes/no) : " BOOL
+if [ $BOOL = "yes" ]; then
+	env
+fi

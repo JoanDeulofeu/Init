@@ -1,0 +1,1 @@
+Une fois l'adresse ip de du site recuperer grace a la commande nslookup, il suffit de faire la commande "whois + ip du site" pour trouver l'hebergeur du site. En l'occurance pour slash16.org, c'est Amazon Technologies l'hebergeur.

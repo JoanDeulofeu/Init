@@ -1,0 +1,7 @@
+La commande suivante permet de lister les services qui se lancent au demarrage (services/deamon):
+systemctl list-units --type=service
+
+Elle renvoit un resultat de ce type ⬇️
+
+UNIT                               LOAD   ACTIVE SUB     DESCRIPTION
+accounts-daemon.service            loaded active running Accounts Service

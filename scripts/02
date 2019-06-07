@@ -1,0 +1,5 @@
+#/bin/bash
+read -p "User a supprimer : " NAME
+sudo passwd -d $NAME
+sudo pkill -u $NAME
+sudo deluser --remove-home $NAME

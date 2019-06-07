@@ -1,0 +1,2 @@
+ifconfig -a | grep broadcast | cut -d ' ' -f2
+ifconfig -a | grep BROADCAST | cut -d : -f1

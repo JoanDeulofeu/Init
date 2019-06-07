@@ -1,0 +1,1 @@
+who -T | tr -s ' ' | cut -d ' ' -f 1-2 | sort -u

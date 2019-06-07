@@ -1,0 +1,1 @@
+Apres avoir creer l'User, ajouter son login dans le fichier /etc/ssh/sshd_config a la ligne des "AllowUsers" puis reboot la VM. Ensuite pour se connecter en ssh sur le profil, tapez "ssh Users_Name@10.13.0.49".

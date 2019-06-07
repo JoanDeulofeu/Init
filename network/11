@@ -1,0 +1,1 @@
+Grace a un traceroute, on obtient la liste des materiaux qui font le lien entre mon reseau local et un site. Dans cette liste, le deuxieme est celui qui fait le lien entre mon reseau local et l'exterieur. Donc son nom est nat-1 et son IP est 10.60.1.11.
